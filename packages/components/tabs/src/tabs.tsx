@@ -240,7 +240,10 @@ const Tabs = defineComponent({
               )
             }}
           />
-          {newButton}
+          <el-space>
+            {slots['extra'] ? renderSlot(slots, 'extra') : null}
+            {newButton}
+          </el-space>
         </div>
       )
 

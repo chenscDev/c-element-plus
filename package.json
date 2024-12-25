@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "c-el-plus",
   "workspaces": [
     "packages/*",
     "play",

@@ -10,6 +10,7 @@ addIcon
     <template #add-icon>
       <el-icon><Select /></el-icon>
     </template>
+    <template #extra> dd </template>
     <el-tab-pane
       v-for="item in editableTabs"
       :key="item.name"
